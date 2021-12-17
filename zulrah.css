@@ -1,0 +1,95 @@
+body {
+ /* hides scrollbars */
+background-image: url('https://cdnb.artstation.com/p/assets/images/images/024/306/321/large/hollie-liz-zulrah.jpg?1581989103');
+-webkit-touch-callout: none; /* iOS Safari */
+-webkit-user-select: none; /* Safari */
+-khtml-user-select: none; /* Konqueror HTML */
+-moz-user-select: none; /* Old versions of Firefox */
+-ms-user-select: none; /* Internet Explorer/Edge */
+user-select: none; /* Non-prefixed version, currently
+supported by Chrome, Edge, Opera and Firefox */
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+h1 {
+color: white;
+font-size: 30px;
+}
+    
+h2 {
+color: white;
+font-size: 30px;
+}
+
+
+.zulrahPhaseContainer {
+width: 600px;
+height: 1375px;
+background-color: rgba(0, 0, 0, 0.6);
+display: flex;
+align-items: center;
+}
+
+.phaseOneTwo {
+display: flex;
+width: 600px;
+height: 900px;
+flex-direction: column;
+align-items: center;
+}    
+
+.rotation img {
+height: auto; 
+width: auto; 
+max-width: 150px; 
+max-height: 150px;
+background-color: rgba(220, 220, 200);
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.patternOne {
+display: flex;
+flex-direction: row;
+flex-flow: wrap;
+justify-content: center;
+}
+
+
+.resetButton {
+display: flex;
+height: 1375px;
+width: 60px;
+background-color: rgba(36, 40, 43, 0.96);
+border-left: solid black 2px;
+border-right: solid black 2px;
+font-size: 40px;
+color: white;
+align-items: center;
+justify-content: center;
+}
+
+.phaseOneOptions {
+display: flex;
+flex-direction: row;
+width: 600px;
+height: 800px;
+justify-content: center;
+}
+
+
+
+.melMageTwo, .rangeTwo, .rangeTwo2nd, .patternOneShade1, .patternOneShade2, .patternOneShade3, .patternOneShade4, .patternOneClick1, .patternOneClick2, .patternOneClick3, .patternOneClick4, .patternOneClick5, .patternOneClick6, .patternTwoShade1, .patternTwoShade2, .patternTwoShade3, .patternTwoShade4, .patternTwo1, .patternTwo2, .patternTwo3, .patternTwo4, .patternTwo5, .patternTwo6, .patternThreeShade1, .patternThreeShade2, .patternThree1, .patternThree2, .patternThree3, .patternThree4, .patternThree5, .patternThree6, .patternThree7, .patternThree8, .patternThree9, .patternFourShade1, .patternFourShade2, .patternFour1, .patternFour2, .patternFour3, .patternFour4, .patternFour5, .patternFour6, .patternFour7, .patternFour8, .patternFour9, .patternFour10 {
+display: none;
+}
+
+
+.patternOneShade1, .patternOneShade2, .patternOneShade3, .patternOneShade4, .patternTwoShade1, .patternTwoShade2, .patternTwoShade3, .patternTwoShade4, .patternThreeShade1, .patternThreeShade2, .patternFourShade1, .patternFourShade2 {
+opacity: 0.3;
+}
